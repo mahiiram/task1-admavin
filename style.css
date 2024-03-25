@@ -1,0 +1,190 @@
+/* Admavin Assignment CSS */
+
+body {
+    margin: 0;
+}
+
+.p1_section1,
+.p2_section1 {
+    background-color: rgb(232, 234, 237);
+    padding-left: 15%;
+    padding-right: 15%;
+}
+
+.p1_section2 {
+    padding: 10% 15%;
+    text-align: center;
+}
+
+.p1_section3,
+.p1_section4 {
+    padding: 5% 15% 10% 15%;
+}
+
+.p1_section4 {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+}
+
+.p1_section5 {
+    background-color: rgb(232, 234, 237);
+    padding: 6% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.p1_section1_body,
+.p1_section3,
+.p1_navbar,
+.p2_navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.p1_section1_body {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+.p1_navbar_menu {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.p1_navbar_home,
+.p1_logo,
+.p2_logo,
+.p2_login {
+    color: blue;
+}
+
+.p1_loginbtn,
+.p1_freetrial,
+.p2_startnow,
+.p2_freetrial {
+    padding: 7px;
+    background-color: blue;
+    color: white;
+    border-color: blue;
+}
+
+.p1_section1_body1,
+.p1_section3_body1 {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 25px;
+    width: 40%;
+}
+
+.p1_section1_body2,
+.p1_section3_body2,
+.p1_section4_body1 {
+    border: 1px solid blue;
+    padding: 10% 20%;
+    background-color: lightgray;
+}
+
+.p2_section1_btns {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.p2_learnmore {
+    padding: 7px;
+    color: blue;
+    border-color: blue;
+}
+
+.p2_section1_body {
+    padding: 10% 15% 10% 15%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p2_section1_bodyhead {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.p2_section2 {
+    text-align: center;
+    padding: 5% 15% 5% 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.p1_section1_bodyhead,
+.p1_section2_bodyhead,
+.p1_section3_bodyhead,
+.p1_section5_bodyhead,
+.p2_section2_head {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.p1_section2_bodyhead {
+    padding: 0% 30% 3% 30%;
+}
+
+.p1_section2_bodyhead1 {
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+
+.p2_section2_body1head {
+    font-weight: bold;
+}
+
+.dummy_text {
+    color: grey;
+}
+
+.p2_section2_body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.p2_section2_body1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.p1_section2_body2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+
+.p1_section4_body2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.p1_section6 {
+    background-color: rgb(74, 76, 78);
+    color: white;
+    padding: 1.5% 15%;
+    text-align: center;
+}
